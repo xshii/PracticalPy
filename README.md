@@ -13,4 +13,11 @@ Some practical python technique
     $ python logger_.py --info
     ```
     
- 
+ * C extension support via ```CPython```
+    ```bash
+    (cExtension)$ python setup.py build_ext --inplace
+    ```
+    ```python
+    from cExtension.demo import add
+    add(1,2)   // 3
+    ```

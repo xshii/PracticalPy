@@ -1,0 +1,6 @@
+[2018.02.07 12:14:16 INFO] @logger | Initializing a logger
+[2018.02.07 12:14:16 INFO] @logger.second | Initializing a second logger
+[2018.02.07 12:14:16 WARNING] @logger | WARNING msg written to file
+[2018.02.07 12:14:16 DEBUG] @logger | DEBUG   msg written to file
+[2018.02.07 12:14:16 ERROR] @logger | ERRORS  msg written to file
+[2018.02.07 12:14:16 WARNING] @logger.second | second logger is writing a warning
