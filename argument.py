@@ -40,7 +40,8 @@ parser = argparse.ArgumentParser(prog="Integers Processor Version:{}".format(VER
     <epilog>
     
 """
-
+# mutually exclusive group
+# parser.add_mutually_exclusive_group()
 
 
 # Add additional argument
