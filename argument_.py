@@ -1,6 +1,6 @@
 # demo
-# python argument.py --sum 1 2 3 4  #   10
-# python argument.py 1 2 3 4        #   4
+# python argument_.py --sum 1 2 3 4  #   10
+# python argument_.py 1 2 3 4        #   4
 
 import argparse
 
