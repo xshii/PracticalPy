@@ -2,7 +2,7 @@ import logging,os
 import argparse
 
 ##### argument parser revises. Not necessary.
-parser = argparse.ArgumentParser(prog="a simple logger", description="console level is set by argument parser or DEBUG by default")
+parser = argparse.ArgumentParser(prog="a simple logger", description="console debug level is set by argument parser or DEBUG by default")
 
 arg_group_log = parser.add_mutually_exclusive_group()
 arg_group_log.add_argument('-i', '--info', action='store_true')  # INFO
