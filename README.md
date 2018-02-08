@@ -21,3 +21,5 @@ Some practical python technique
     from cExtension.demo import add
     add(1,2)   // 3
     ```
+
+* Intel mkl support for python ```mkl```
